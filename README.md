@@ -1,5 +1,7 @@
 # Medusa Q and A
 
+Picked from the Discord
+
 ## I want to have multiple stores and one admin, how ?
 Try sales channel
 
