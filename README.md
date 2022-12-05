@@ -24,7 +24,7 @@ app_name: medusa-server
 
 script_name: start (from package.json)
 
-## What mean headless application
+## What mean headless solution
 
 A headless solution is decoupled from your frontend so that you can leverage whichever framework you're using.
 Medusa gives you the engine plus some js tools to interact with it. What you'll do with is up to you.
