@@ -18,7 +18,8 @@ Be aware that Vercel doesn't allow commercial use for free. Netlify does
 
 ## How to run Medusa with PM2
 
-pm2 start npm --name "medusa-server" -- run start
+`pm2 start npm --name "medusa-server" -- run start`
 
 app_name: medusa-server
+
 script_name: start (from package.json)
