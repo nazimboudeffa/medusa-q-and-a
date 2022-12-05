@@ -41,3 +41,7 @@ You might use Remix nested routes: https://remix.run/docs/en/v1/guides/routing
 Maybe Next.js static generation with client side routing. Or the new nested layouts routing.
 In all those cases you want to use the handle property of the product object and use it for your routing.
 You can check out nextjs medusa starter for inspiration.
+
+## Gatsby or Next for the frontend
+
+The nextjs is more up to date now. And AFAIK only this one will get future updates. For me next.js is far more superior then Gatsby. 
