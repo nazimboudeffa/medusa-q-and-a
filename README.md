@@ -45,3 +45,11 @@ You can check out nextjs medusa starter for inspiration.
 ## Gatsby or Next for the frontend
 
 The nextjs is more up to date now. And AFAIK only this one will get future updates. For me next.js is far more superior then Gatsby. 
+
+## Should I use vercel or netlify public domains
+
+I would advise to not use vercel.app ,netlify.app domains
+
+They are on the public suffix list, and because of that the server can't set the cookies needed for authentication, if the user accessing the site from most modern browsers such as Chrome, Firefox, etc. 
+
+Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat 
