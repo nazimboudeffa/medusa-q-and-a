@@ -30,7 +30,7 @@ other way
 
 in our case 
 
-`pm2 start npm --name "medusa-server" -- medusa develop`
+`pm2 start npm --name "medusa-server" -- run start`
 
 ## What mean headless solution
 
