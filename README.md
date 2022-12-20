@@ -30,11 +30,20 @@ other way
 
 in our case 
 
-`pm2 start npm --name "medusa-server" -- run start`
+```
+cd my-medusa-store
+pm2 start npm --name "medusa-server" -- run start
+```
 
-`pm2 start npm --name "medusa-storefront" -- run start`
+```
+cd my-medusa-storefront
+pm2 start npm --name "medusa-storefront" -- run start
+```
 
-`pm2 start npm --name "medusa-admin" -- run start`
+```
+cd medusa-admin
+pm2 start npm --name "medusa-admin" -- run start
+```
 
 ## What mean headless solution
 
