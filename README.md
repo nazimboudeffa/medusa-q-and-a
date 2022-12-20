@@ -34,6 +34,8 @@ in our case
 
 `pm2 start npm --name "medusa-storefront" -- run start`
 
+`pm2 start npm --name "medusa-admin" -- run start`
+
 ## What mean headless solution
 
 A headless solution is decoupled from your frontend so that you can leverage whichever framework you're using.
