@@ -37,7 +37,7 @@ pm2 start npm --name "medusa-server" -- run start
 
 ```
 cd my-medusa-storefront
-pm2 start npm --name "medusa-storefront" -- run start
+pm2 start npm --name "medusa-storefront" -- run dev
 ```
 
 ```
