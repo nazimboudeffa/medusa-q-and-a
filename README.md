@@ -28,6 +28,10 @@ other way
 
 `pm2 start "NODE_ENV=production npm run start"`
 
+in our case 
+
+`pm2 start npm --name "medusa-server" -- medusa develop`
+
 ## What mean headless solution
 
 A headless solution is decoupled from your frontend so that you can leverage whichever framework you're using.
