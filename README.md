@@ -42,7 +42,7 @@ pm2 start npm --name "medusa-storefront" -- run dev
 
 ```
 cd medusa-admin
-pm2 start npm --name "medusa-admin" -- run start
+pm2 start npm --name "medusa-admin" -- run dev
 ```
 
 ## What mean headless solution
