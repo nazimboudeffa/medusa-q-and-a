@@ -2,6 +2,8 @@
 
 Picked from the Discord
 
+The guide I am writing is [here](https://docs.google.com/document/d/1uPSHBadrBKatcycZrNLtVysF9zbSAE0F85ggS2uCU-8/edit?usp=sharing)
+
 ## I want to have multiple stores and one admin, how ?
 
 Try sales channel
@@ -70,3 +72,5 @@ I would advise to not use vercel.app ,netlify.app domains
 They are on the public suffix list, and because of that the server can't set the cookies needed for authentication, if the user accessing the site from most modern browsers such as Chrome, Firefox, etc. 
 
 Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat 
+
+## How to troobleshoot Admin creds
