@@ -73,4 +73,8 @@ They are on the public suffix list, and because of that the server can't set the
 
 Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat 
 
-## How to troobleshoot Admin creds
+## How to troobleshoot Admin creds connection
+
+- Install Medusa and seed the database with `--seed`
+- Install Admin
+- CORS
