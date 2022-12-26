@@ -82,3 +82,4 @@ Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat
   - If it's localhost use the right PORT 
   - If you are using a domain name use the subdomains
 - Check that you are using https
+- Cookies are set by the Admin and you can inpect that in the Dev Tools
