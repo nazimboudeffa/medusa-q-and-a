@@ -1,6 +1,6 @@
 # Medusa Q and A
 
-Picked from the Discord
+The answers were picked from the Discord
 
 The guide I am writing is [here](https://docs.google.com/document/d/1uPSHBadrBKatcycZrNLtVysF9zbSAE0F85ggS2uCU-8/edit?usp=sharing)
 
