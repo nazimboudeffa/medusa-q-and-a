@@ -79,4 +79,6 @@ Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat
 - Install Admin
 - CORS
 - Check that you are using the right url
+  - If it's localhost use the right PORT 
+  - If you are using a domain name use the subdomains
 - Check that you are using https
