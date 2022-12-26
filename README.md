@@ -78,3 +78,5 @@ Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat
 - Install Medusa and seed the database with `--seed`
 - Install Admin
 - CORS
+- Check that you are using the right url
+- Check that you are using https
