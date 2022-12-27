@@ -83,3 +83,24 @@ Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat
   - If you are using a domain name use the subdomains
 - Check that you are using https
 - Cookies are set by the Admin and you can inspect that in the Dev Tools
+
+## Hosting Medusa Solution
+
+- First solution
+
+I deploy on AWS and Azure but find it would be easier in Digital Ocean for beginners to deploy
+[00:48]
+My simplest environment is:
+
+Medusajs server: Redis + EC2 (server hosting) + Postgres DB
+
+Frontend: Nextjs : deployed on Vercel
+Admin: Vite + React : deployed on Netlify or Vercel
+
+- Second solution
+
+1vcpu, 2GB RAM server with a swap file should handle medusa stack with no problem. Though I still would recommend at least 2 cores and 4GB RAM. Then scale up if needed.
+
+I'm using Digital Ocean Spaces for hosting images but again you could spin up a MInio app in Dokku or Coolify in few minutes.
+
+I am using Dokku but Coolify works fine too
