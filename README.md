@@ -86,6 +86,8 @@ Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat
 
 ## Hosting Medusa Solution
 
+There is not only one solution to host Medusa 
+
 - First solution
 
 I deploy on AWS and Azure but find it would be easier in Digital Ocean for beginners to deploy
