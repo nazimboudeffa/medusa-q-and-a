@@ -100,6 +100,8 @@ Frontend: Nextjs : deployed on Vercel
 
 Admin: Vite + React : deployed on Netlify or Vercel
 
+for commercial use see [this](https://github.com/nazimboudeffa/medusa-qanda/blob/main/README.md#i-want-to-deploy-medusa-on-netlify-how-)
+
 - Second solution
 
 1vcpu, 2GB RAM server with a swap file should handle medusa stack with no problem. Though I still would recommend at least 2 cores and 4GB RAM. Then scale up if needed.
