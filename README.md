@@ -112,3 +112,5 @@ One thing I do is offsite database backups which I sync either to Digital Ocean 
 - More tips
 
 If you want to deploy Nextjs on your own VPS, here's your guide: https://github.com/serverless-stack/open-next/blob/main/README.md
+
+The Image Optimisation in Nextjs just works, there's nothing to it. One thing you could do if you want to preserve the cached images during build deploys, is bind /.next/cache/images to a docker volume. Which is also easy as hell in Coolify and Dokku.
