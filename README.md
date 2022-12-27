@@ -97,6 +97,7 @@ My simplest environment is:
 Medusajs server: Redis + EC2 (server hosting) + Postgres DB
 
 Frontend: Nextjs : deployed on Vercel
+
 Admin: Vite + React : deployed on Netlify or Vercel
 
 - Second solution
