@@ -101,6 +101,10 @@ Admin: Vite + React : deployed on Netlify or Vercel
 
 1vcpu, 2GB RAM server with a swap file should handle medusa stack with no problem. Though I still would recommend at least 2 cores and 4GB RAM. Then scale up if needed.
 
-I'm using Digital Ocean Spaces for hosting images but again you could spin up a MInio app in Dokku or Coolify in few minutes.
+Using Digital Ocean Spaces for hosting images but again you could spin up a MInio app in Dokku or Coolify in few minutes.
 
-I am using Dokku but Coolify works fine too
+Using Dokku but Coolify works fine too
+
+There's a opinion that databases, storage should be hosted elsewhere on managed instances (Managed Postgres, Redis, S3, Spaces).
+But many companies are actually hosting all of those by themselves. It is actually very common to host everything on premise.
+One thing I do is offsite database backups which I sync either to Digital Ocean Spaces or AWS S3.
