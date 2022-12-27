@@ -108,3 +108,7 @@ Using Dokku but Coolify works fine too
 There's a opinion that databases, storage should be hosted elsewhere on managed instances (Managed Postgres, Redis, S3, Spaces).
 But many companies are actually hosting all of those by themselves. It is actually very common to host everything on premise.
 One thing I do is offsite database backups which I sync either to Digital Ocean Spaces or AWS S3.
+
+- More tips
+
+If you want to deploy Nextjs on your own VPS, here's your guide: https://github.com/serverless-stack/open-next/blob/main/README.md
