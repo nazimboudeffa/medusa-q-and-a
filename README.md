@@ -142,7 +142,9 @@ remove the authorization TOKEN
 I could see the migrations runs and the database updated with the new table. I followed just the same steps. create an entity, created a repository, make migration file for the new table, updated the up and down functions in migration file, npm run build and medusa migrations run command.
 
 I used the following command while creating them manually.
-npx typeorm migration:create -n Post --dir src/migrations
+
+`npx typeorm migration:create -n Post --dir src/migrations`
 
 I used the following command while using medusa-extender
-medex generate --module --entity --repository --migration Post
+
+`medex generate --module --entity --repository --migration Post`
