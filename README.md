@@ -49,6 +49,8 @@ pm2 start npm --name "medusa-admin" -- run dev
 
 ## How to run in production mode
 
+When using extender
+
 `"start:prod": "npm run build && NODE_ENV=production node dist/main"`
 
 ## What mean headless solution
