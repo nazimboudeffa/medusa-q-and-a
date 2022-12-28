@@ -120,6 +120,6 @@ If you want to deploy Nextjs on your own VPS, here's your guide: https://github.
 
 The Image Optimisation in Nextjs just works, there's nothing to it. One thing you could do if you want to preserve the cached images during build deploys, is bind /.next/cache/images to a docker volume. Which is also easy as hell in Coolify and Dokku.
 
-## How to troobleshoot Postman
+## How to troobleshoot Postman Admin API
 
 TODO
