@@ -178,3 +178,14 @@ Is that correct ?
 ## Cart not found error
 
 Just clear the Cookies, cache
+
+## Meilisearch troobleshooting
+
+the step to troobleshoot this issue (which is why Meilisearch doesn't display products) are :
+
+- check if the postgresDB is installed
+- check if the database has been seeded
+- check if redis is installed
+- check if redis-cli ping, PONGs
+- check if redis uses a password (to be verified)
+- check if the storefront is correctly configured
