@@ -122,4 +122,21 @@ The Image Optimisation in Nextjs just works, there's nothing to it. One thing yo
 
 ## How to troobleshoot Postman Admin API
 
-TODO
+Start by login with postman
+
+POST request to http://localhost:9000/admin/auth
+
+{ 
+    "email": "admin@medusa-test.com", 
+    "password": "supersecret" 
+}
+
+the GET request to http://localhost:9000/admin/products
+
+## API TOKEN ERROR with Postman
+
+remove the authorization TOKEN
+
+## Medusa migration
+
+I could see the migrations runs and the database updated with the new table. I followed just the same steps. create an entity, created a repository, make migration file for the new table, updated the up and down functions in migration file, npm run build and medusa migrations run command.
