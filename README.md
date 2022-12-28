@@ -47,6 +47,10 @@ cd medusa-admin
 pm2 start npm --name "medusa-admin" -- run dev
 ```
 
+## How to run in production mode
+
+`"start:prod": "npm run build && NODE_ENV=production node dist/main"`
+
 ## What mean headless solution
 
 A headless solution is decoupled from your frontend so that you can leverage whichever framework you're using.
