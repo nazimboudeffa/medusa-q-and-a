@@ -174,3 +174,7 @@ The CustomModule will imports all your extended classes and will be imported in 
 - Load all the modules inside the load function inside the main.ts
 
 Is that correct ?
+
+## Cart not found error
+
+Just clear the Cookies, cache
