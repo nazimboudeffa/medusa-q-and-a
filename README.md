@@ -148,3 +148,29 @@ I used the following command while creating them manually.
 I used the following command while using medusa-extender
 
 `medex generate --module --entity --repository --migration Post`
+
+## Some words about Medusa Extender
+
+I need to understand things about Medusa (and its MedusaExtender package)
+
+Theoretically, if I want to modify my back-end to add custom fields, I need to first :
+
+
+- Create a new entity that extends the Medusa one 
+The extended entity will contains all the custom fields and the new relationships
+
+- Create a migration linked to the addition of the new fields
+Migrations let you update tables with the up function, the down function is maybe used if I want to revert the migration ?
+
+- Create a new repository that extends the Medusa one and that returns the previously created entity 
+Also this is where you can override existings methods, like a method to find an entity with the id or to save a new entity, you also pass your CustomEntity previously created
+
+- Inject the custom repository in a custom service and override its retrieve function with the new entity (I don't know why yet)
+What is the purpose of a service ? a set of business logic that is using the previously created CustomRepository ?
+
+- Create a module that imports the Entity, the repository, the service and the different migrations 
+The CustomModule will imports all your extended classes and will be imported in the main.ts file at the root of the src folder
+
+- Load all the modules inside the load function inside the main.ts
+
+Is that correct ?
