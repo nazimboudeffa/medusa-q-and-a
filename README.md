@@ -47,6 +47,17 @@ cd medusa-admin
 pm2 start npm --name "medusa-admin" -- run dev
 ```
 
+## How to configure the Admin Connection
+
+Go to https://github.com/medusajs/admin/blob/819a4acc89b21fabef7ca03dfc6ebac174c7619f/src/services/config.js and add
+
+```
+//const medusaUrl = __MEDUSA_BACKEND_URL__ || "http://localhost:9000"
+const medusaUrl = __MEDUSA_BACKEND_URL__ || "https://api.instant-market.com"
+
+export { medusaUrl }
+```
+
 ## How to run in production mode
 
 When using extender
