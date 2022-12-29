@@ -195,3 +195,21 @@ the step to troobleshoot this issue (which is why Meilisearch doesn't display pr
 - check if redis-cli ping, PONGs
 - check if redis uses a password (to be verified)
 - check if the storefront is correctly configured
+
+## Medusa Tech Stack
+
+```
+Node/NPM
+Yarn
+TypeScript
+TypeORM
+SQLite
+PostGresSQL
+Redis
+Docker
+React
+Next
+TailWind
+Ubuntu
+Git/GitHub
+```
