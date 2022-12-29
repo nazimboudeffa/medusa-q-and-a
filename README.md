@@ -225,4 +225,4 @@ Ubuntu
 Git/GitHub
 ```
 
-And of course the plugins
+And of course the plugins, Stripe, PayPal, Meilisearch, ...
