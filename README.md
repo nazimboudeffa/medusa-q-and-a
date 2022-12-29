@@ -213,3 +213,5 @@ TailWind
 Ubuntu
 Git/GitHub
 ```
+
+And of course the plugins
