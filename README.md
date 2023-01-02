@@ -226,3 +226,14 @@ Git/GitHub
 ```
 
 And of course the plugins, Stripe, PayPal, Meilisearch, ...
+
+## How to start medusa on another port
+
+```
+  "scripts": {
+    "dev": "medusa develop --port 9001",<----------
+    "seed": "medusa seed -f ./data/seed.json",
+    "build": "babel src -d dist --extensions \".ts,.js\"",
+    "start": "medusa develop"
+  },
+```
