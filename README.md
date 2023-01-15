@@ -47,6 +47,17 @@ cd medusa-admin
 pm2 start npm --name "medusa-admin" -- run dev
 ```
 
+```
+sudo service postgressql start
+sudo service redis-server start
+cd <path-to-store>/my-medusa-store
+pm2 start npm –name “medusa-server” – run start
+cd <path-to-store>/medusa-admin
+pm2 start npm –name “medusa-admin” – run dev
+cd <path-to-store>/my-mdusa-storefront
+pm2 start npm –name “medusa-storefront” – run dev
+```
+
 ## How to configure the Admin Connection
 
 Go to https://github.com/medusajs/admin/blob/819a4acc89b21fabef7ca03dfc6ebac174c7619f/src/services/config.js and add
