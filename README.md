@@ -101,6 +101,8 @@ They are on the public suffix list, and because of that the server can't set the
 
 Public suffix list: https://publicsuffix.org/list/public_suffix_list.dat 
 
+contradiction https://custom-search-engine-fashion-demo.netlify.app/
+
 ## How to troobleshoot Admin creds connection
 
 - Install Medusa and seed the database with `--seed`
