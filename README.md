@@ -45,7 +45,7 @@ cd medusa-admin
 pm2 start npm --name "medusa-admin" -- run dev
 ```
 
-Little sh script
+Little shell script
 
 ```
 sudo service postgressql start
