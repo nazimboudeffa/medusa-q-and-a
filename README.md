@@ -3,7 +3,9 @@
 The answers were picked from the Discord discussions we have in the community
 
 
-## Will this be the next logo (FOR INSPIRATION ONLY) ?
+## Will this be the next logo ?
+
+(FOR INSPIRATION ONLY)
 
 ![medusa logo](medusa-logo-400x400.jpg)
 
