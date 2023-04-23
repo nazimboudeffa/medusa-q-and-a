@@ -1,5 +1,9 @@
 # Medusa Q and A
 
+Will this be the next logo (FOR INSPIRATION ONLY) ? [SOURCE https://twitter.com/aisolopreneur]
+![medusa logo](medusa-logo-400x400.jpg)
+
+
 The answers were picked from the Discord discussions we have in the community
 
 ## I want to have multiple stores and one admin, how ?
