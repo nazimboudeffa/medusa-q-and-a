@@ -3,8 +3,11 @@
 The answers were picked from the Discord discussions we have in the community
 
 
-## Will this be the next logo (FOR INSPIRATION ONLY) ? [SOURCE https://twitter.com/aisolopreneur]
+## Will this be the next logo (FOR INSPIRATION ONLY) ?
+
 ![medusa logo](medusa-logo-400x400.jpg)
+
+[SOURCE https://twitter.com/aisolopreneur]
 
 ## How to display products
 
