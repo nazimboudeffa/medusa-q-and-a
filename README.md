@@ -11,7 +11,7 @@ The answers were picked from the Discord discussions we have in the community
 
 [SOURCE https://twitter.com/aisolopreneur]
 
-I have always thought that this was the inspiration for medusa naming, not the mythological figure
+I have always thought that the animal was the inspiration for medusa naming, not the mythological figure
 
 ## What is the Medusa Tech Stack
 
