@@ -33,7 +33,7 @@ And of course the plugins, Stripe, PayPal, Meilisearch, ...
 
 ## How to display products
 
-GO CHECK products.md
+GO CHECK [products.md](products.md)
 
 ## I want to have multiple stores and one admin, how ?
 
