@@ -13,6 +13,8 @@ The answers were picked from the Discord discussions we have in the community
 
 I have always thought that the animal was the inspiration for medusa naming, not the mythological figure
 
+No need to change it imo, it can have many diffrents geometrical interpretations
+
 ## What is the Medusa Tech Stack
 
 ```
