@@ -55,3 +55,19 @@ export default function Products() {
     )
 }
 ```
+
+So go back on the STARTER
+
+```
+useInfiniteQuery(
+      [`infinite-products-store`, queryParams, cart],
+      ({ pageParam }) => fetchProductsList({ pageParam, queryParams }),
+      {
+        getNextPageParam: (lastPage) => lastPage.nextPage,
+      }
+    )
+```
+
+- ['infinite-products-store', queryParams, cart], -> this is the query key array. Primary use is caching the data. If anything in this dependency changes, then the data is refetched
+- ({ pageParam }) => fetchProductsList({ pageParam, queryParams }) -> this is passing the function that actually fetches the data
+- getNextPageParam: (lastPage) => lastPage.nextPage, -> here, lastPage would actually mean lastFetchedPage. That is, what page was fetched the last.
