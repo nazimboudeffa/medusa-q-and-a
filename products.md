@@ -58,6 +58,10 @@ export default function Products() {
 
 So to go back on the STARTER
 
+https://github.com/medusajs/nextjs-starter-medusa/blob/main/src/modules/products/components/infinite-products/index.tsx#L37-L45
+
+You can find more about react query on https://tanstack.com/
+
 ```
 useInfiniteQuery(
       [`infinite-products-store`, queryParams, cart],
