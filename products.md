@@ -56,7 +56,7 @@ export default function Products() {
 }
 ```
 
-So go back on the STARTER
+So to go back on the STARTER
 
 ```
 useInfiniteQuery(
