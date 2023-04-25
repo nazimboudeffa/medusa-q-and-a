@@ -1,5 +1,7 @@
 # How to display products
 
+According to the corresponding endpoint https://docs.medusajs.com/api/store#tag/Products
+
 Method 1 with REACT
 
 ```
