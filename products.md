@@ -4,6 +4,10 @@ You may have seen that in the docs the first test when you deploy medusa is to t
 
 According to the corresponding endpoint https://docs.medusajs.com/api/store#tag/Products
 
+(Talk about how to do that with Postman)
+
+You can call this endpoint in diffrent manners from the frontend
+
 Method 1 with REACT
 
 ```
