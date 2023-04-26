@@ -1,6 +1,6 @@
 # How to display products
 
-You may have seen that the first test when you deploy medusa is to test the product endpoint
+You may have seen that in the docs the first test when you deploy medusa is to test the product endpoint
 
 According to the corresponding endpoint https://docs.medusajs.com/api/store#tag/Products
 
