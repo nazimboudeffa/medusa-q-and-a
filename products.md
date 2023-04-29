@@ -1,6 +1,6 @@
 # How to display products
 
-Corresponding video https://www.youtube.com/watch?v=Fak_qOrWhfg
+👉Corresponding video https://www.youtube.com/watch?v=Fak_qOrWhfg
 
 You may have seen that in the docs the first test when you deploy medusa is to test the product endpoint
 
