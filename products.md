@@ -2,6 +2,8 @@
 
 👉Corresponding video https://www.youtube.com/watch?v=Fak_qOrWhfg
 
+Corresponding docs on the official site https://docs.medusajs.com/storefront/roadmap#displaying-products
+
 You may have seen that in the docs the first test when you deploy medusa is to test the product endpoint
 
 According to the corresponding endpoint https://docs.medusajs.com/api/store#tag/Products
