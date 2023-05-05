@@ -267,3 +267,7 @@ the step to troobleshoot this issue (which is why Meilisearch doesn't display pr
     "start": "medusa develop"
   },
 ```
+
+## Docker
+
+Docker was actually never officially supported. There's a repository with Dockerfiles that offers a good starting point, though they have not been updated for a while and are not actively maintained
