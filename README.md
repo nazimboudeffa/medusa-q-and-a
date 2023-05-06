@@ -273,3 +273,11 @@ the step to troobleshoot this issue (which is why Meilisearch doesn't display pr
 ## Docker
 
 Docker was actually never officially supported. There's a repository with Dockerfiles that offers a good starting point, though they have not been updated for a while and are not actively maintained
+
+## Where is the official next frontend deployment
+
+https://next.medusajs.com/
+
+## About next13
+
+Hey, no plans for updating the starter in the foreseeable future. We are focussed on shipping new features for the core. I will upgrade the starter to Next 13, once the app directory is out of beta, but until then it is staying on 12 🙂
