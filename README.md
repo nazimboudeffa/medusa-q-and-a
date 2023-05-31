@@ -281,3 +281,17 @@ https://next.medusajs.com/
 ## About next13
 
 Hey, no plans for updating the starter in the foreseeable future. We are focussed on shipping new features for the core. I will upgrade the starter to Next 13, once the app directory is out of beta, but until then it is staying on 12 🙂
+
+## Change the port
+
+The default port is 9000, if you want to run the server on a custom port update medusa-config.js as follows:
+
+```
+module.exports = {
+  /* ... */
+  serverConfig:{
+    port: <PORT_NUMBER>
+  }
+  /* ... */
+};
+```
