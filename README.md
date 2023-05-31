@@ -295,3 +295,5 @@ module.exports = {
   /* ... */
 };
 ```
+
+You don't have to use the extender to change the port, you can just use medusa start -p <port>
