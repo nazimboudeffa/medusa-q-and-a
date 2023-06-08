@@ -305,4 +305,13 @@ Well I'll tell you how we do it. We use the Medusa file s3 plugin to upload file
   twicpics
   imageproxy is open source
   bynny
+  https://plaiceholder.co/docs
+  https://images.weserv.nl/docs/
   
+```
+export const ImgProxyImage: FC<ImgHTMLAttributes<HTMLImageElement>> = ({ src, ...props }) => {
+  const proxiedSrc = getProxySrc(src); // function that builds the URL, based on docs here: https://docs.imgproxy.net/generating_the_url
+  return <img src={proxiedSrc} {...props} />;
+};  
+```
+`<img src="//wsrv.nl/?url=wsrv.nl/lichtenstein.jpg&w=300&h=300">`
