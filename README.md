@@ -297,3 +297,7 @@ module.exports = {
 ```
 
 You don't have to use the extender to change the port, you can just use medusa start -p <port>
+  
+## Images CDN
+  
+Well I'll tell you how we do it. We use the Medusa file s3 plugin to upload files for products, etc. Then in our storefront react code, we built a custom Image component that integrates with imgproxy. It allows us to take any image url and send that to imgproxy requesting a smaller or more web optimized image format.
