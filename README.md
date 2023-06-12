@@ -33,6 +33,23 @@ Ubuntu
 Git/GitHub
 ```
 
+UPDATE 20230612
+
+- Node/NPM
+- Yarn
+- TypeScript
+- TypeORM
+- ~~SQLite~~
+- PostGreSQL :point_right: create a db, create a user, pgAdmin4?
+- Redis
+- ~~Docker~~
+- Next :point_right:  the STARTER
+- React :point_right: the ADMIN
+- TailWind :point_right:  the STARTER and ADMIN
+- Ubuntu :point_right: other platforms like Dokku, Coolify, Digital Ocean buckets or even Railways
+- Git/GitHub
+- probably svelte with Pevey
+
 And of course the plugins, Stripe, PayPal, Meilisearch, ...
 
 ## What mean headless solution
